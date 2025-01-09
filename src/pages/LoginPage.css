@@ -1,0 +1,105 @@
+.container {
+  display: flex;
+  height: 100vh;
+}
+.h1{
+padding-bottom: 100px;
+margin-bottom: 40px;
+}
+
+.left-side {
+  flex: 2;
+  background-color: #f0f0f0; /* Example background color */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.paper-image {
+  
+  width: 80%; /* Example width */
+  height: 80%; /* Example height */
+  background-image: url('src/assets/sasi.jpg'); 
+  background-size: cover;
+}
+
+.text {
+  text-align: center;
+}
+
+.dots {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #ccc; /* Inactive dot color */
+  margin: 0 5px;
+}
+
+.dot.active {
+  background-color: #000; /* Active dot color */
+}
+
+.right-side {
+  flex: 1;
+  background-color: #fff; /* Example background color */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+   width: 150px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+  margin-bottom: 20px; /* Space below the image */
+  border-radius: 50%;
+  margin-bottom: 40px;
+}
+.input-group {
+  margin-bottom: 15px;
+  width: 80%; /* Example width */
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input-group input {
+  width: 200px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 15px;
+  background-color: #007bff; /* Example button color */
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+
+.or {
+  margin: 20px 0;
+}
+
+.google-button {
+  background-color: #db4437; /* Google button color */
+  color: white;
+}
+.submit{
+  align-items: center;
+}
